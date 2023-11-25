@@ -1,11 +1,11 @@
-﻿<script src="~/Areas/Test/Scripts/Test001/Index.js?version=PengYang0817"></script>
+﻿<script src="~/Areas/Test/Scripts/Test001/Index.js?version=PengYang0817_001"></script>
 @{ ViewBag.Title = "Index"; }
 
 <h3>清單查詢</h3>
 <div ng-init="init()">
     <div>
         <label>輸入想查找的關鍵字</label>
-        <p>下方清單會根據輸入來自動渲染</p>
+        <p>提示文案: 下方清單會根據輸入來自動渲染</p>
         <input type="text" ng-model="keyword" ng-change="onKeywordChange()" style="color:red" />
         <br />
         <span>查詢到的使用者: </span>
